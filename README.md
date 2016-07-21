@@ -8,6 +8,7 @@ There is a packaged .app in the application.macosx. To run you need some Java (8
 The .pde can be compiled by loading it and running in processing. https://processing.org/download/
 
 Usage is simple.
+
 Load file -- pick a .Kml (Creat and download from google MY MAPS not maps!)
 
 Select -- output location.
