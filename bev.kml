@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Untitled map</name>
+		
+        <description><![CDATA[]]></description>
+		<Folder>
+			<name>Untitled layer</name>
+			<Placemark>
+				<name>street</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-118.4701064,34.1262236,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>school</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-118.4709889,34.1274192,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Directions from street to school</name>
+			<Placemark>
+				<name>Directions from street to school</name>
+				<styleUrl>#line-1267FF-5-nodesc</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>-118.47011,34.12622,0.0 -118.47008,34.12621,0.0 -118.47004,34.12618,0.0 -118.46998,34.12615,0.0 -118.46993,34.12613,0.0 -118.46987,34.12613,0.0 -118.4698,34.12613,0.0 -118.46975,34.12613,0.0 -118.46971,34.12616,0.0 -118.46965,34.12619,0.0 -118.46957,34.12622,0.0 -118.4695,34.12628,0.0 -118.46945,34.12631,0.0 -118.46936,34.12637,0.0 -118.4693,34.12639,0.0 -118.46925,34.1264,0.0 -118.46921,34.12639,0.0 -118.46913,34.12637,0.0 -118.46899,34.12632,0.0 -118.46845,34.126,0.0 -118.4683,34.1259,0.0 -118.46822,34.12582,0.0 -118.46816,34.12576,0.0 -118.4681,34.12569,0.0 -118.46802,34.12565,0.0 -118.46785,34.12561,0.0 -118.46747,34.12556,0.0 -118.46738,34.12661,0.0 -118.46736,34.12669,0.0 -118.46732,34.12676,0.0 -118.46727,34.12682,0.0 -118.4672,34.12689,0.0 -118.46711,34.12694,0.0 -118.46699,34.127,0.0 -118.4671,34.12722,0.0 -118.46713,34.12734,0.0 -118.46727,34.12799,0.0 -118.46731,34.12807,0.0 -118.46734,34.12813,0.0 -118.46738,34.12818,0.0 -118.46743,34.12825,0.0 -118.46819,34.12908,0.0 -118.46824,34.12914,0.0 -118.46825,34.1292,0.0 -118.46825,34.12925,0.0 -118.46824,34.12933,0.0 -118.46821,34.1295,0.0 -118.46858,34.1296,0.0 -118.46868,34.12963,0.0 -118.46877,34.12967,0.0 -118.46885,34.1297,0.0 -118.46893,34.12974,0.0 -118.469,34.12978,0.0 -118.46911,34.12984,0.0 -118.46923,34.12991,0.0 -118.46935,34.12997,0.0 -118.46946,34.13002,0.0 -118.4696,34.13007,0.0 -118.46971,34.1301,0.0 -118.46984,34.13012,0.0 -118.46995,34.13014,0.0 -118.47003,34.13014,0.0 -118.47013,34.13015,0.0 -118.47023,34.13015,0.0 -118.47035,34.13014,0.0 -118.47045,34.13013,0.0 -118.47058,34.1301,0.0 -118.47065,34.13009,0.0 -118.47075,34.13006,0.0 -118.47085,34.13003,0.0 -118.47093,34.13,0.0 -118.471,34.12997,0.0 -118.47106,34.12993,0.0 -118.47113,34.12989,0.0 -118.47119,34.12986,0.0 -118.47125,34.12981,0.0 -118.47133,34.12975,0.0 -118.47142,34.12967,0.0 -118.47149,34.12962,0.0 -118.47151,34.12959,0.0 -118.47158,34.12949,0.0 -118.47194,34.129,0.0 -118.47167,34.12884,0.0 -118.47153,34.12874,0.0 -118.47148,34.1287,0.0 -118.47144,34.12868,0.0 -118.47141,34.12865,0.0 -118.47138,34.12863,0.0 -118.47135,34.12859,0.0 -118.47131,34.12855,0.0 -118.47128,34.12851,0.0 -118.47125,34.12846,0.0 -118.47121,34.1284,0.0 -118.47117,34.12833,0.0 -118.47114,34.12826,0.0 -118.47112,34.1282,0.0 -118.47112,34.12816,0.0 -118.47111,34.12812,0.0 -118.4711,34.12807,0.0 -118.47107,34.12792,0.0 -118.47102,34.12766,0.0 -118.47099,34.12742,0.0</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>street</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-118.4701056,34.1262244,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>school</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>-118.470986,34.1274195,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-1267FF-5-nodesc-normal'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>5</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-1267FF-5-nodesc-highlight'>
+			<LineStyle>
+				<color>ffFF6712</color>
+				<width>8.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-1267FF-5-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-1267FF-5-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-1267FF-5-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
