@@ -17,8 +17,12 @@ Select   -- output location.
 Select   -- route direction froward / reverse / loop.
 
 Select   -- emulated speed 5km/h is default, ~12km/h is usually pretty smooth. 
+
 Things get buggy on the high and low end. 
-Save. Load in Xcode under GPS sim and enjoy. :)
+
+Save    
+
+Load in Xcode under GPS sim and enjoy. :)
 
 
 
