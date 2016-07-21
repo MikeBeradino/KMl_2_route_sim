@@ -1,7 +1,13 @@
+
+/*
+The MIT License (MIT)
+
+Copyright (c) 2016 mike beradino
+*/
+
 import controlP5.*;
 ControlP5 cp5;
 import java.io.File;
-
 
 RadioButton r1;
 String inputpath;
@@ -53,8 +59,7 @@ void setup() {
      .setValue(5)
       ;
      
-   // reposition the Label for controller 'slider'
-  //cp5.getController("Speed_in_KM/h").getValueLabel().align(ControlP5.LEFT, ControlP5.BOTTOM_OUTSIDE).setPaddingX(0);
+
   cp5.getController("Speed_in_KM_per_h").getCaptionLabel().align(ControlP5.LEFT, ControlP5.BOTTOM_OUTSIDE).setPaddingX(0);
      
        
@@ -93,7 +98,6 @@ void controlEvent(ControlEvent theEvent) {
   }
 
 if(theEvent.isFrom(r1)) {
-   // print("got an event from "+theEvent.getName()+"\t");
     for(int i=0;i<theEvent.getGroup().getArrayValue().length;i++) {
       print(int(theEvent.getGroup().getArrayValue()[i]));
       }
@@ -117,7 +121,7 @@ if (mode==2 ) {
     //foward
     for (int count = 0; count < nums.length; count += 3){
       outputtemp.println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
-      println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
+      
     }
    d=1;
    b=0;
@@ -130,13 +134,13 @@ if (mode==1) {
    //foward
      for (int count = 0; count < nums.length; count += 3){
     outputtemp.println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
-    println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
+   
  
  }
     //backward
     for (int count = (nums.length-6); count > 0; count -= 3){
     outputtemp.println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
-    println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
+    
    } 
   d=1;
   b=0;
@@ -147,7 +151,7 @@ if (mode==3) {
    //backward
     for (int count = (nums.length-6); count > 0; count -= 3){
     outputtemp.println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
-    println("<wpt  " + "lat=" + "'" + nums[1+count] + "'" +  " lon=" + "'" + nums [count] + "'" + "></wpt>"  );
+    
     
    } 
    d=1;
