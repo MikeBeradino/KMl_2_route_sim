@@ -1,5 +1,5 @@
 # KMl_2_route_sim
-Java / processing utility to convert Google KML maps to gpx routes with speed values. 
+Java / Processing utility to convert Google KML maps to gpx routes with speed values. 
 I use it with Xcode to simulate gps movments while debuging apps. Latley I have been using it to spoof
 GPS coordinates in PokeMon Go. 
 
@@ -12,10 +12,10 @@ https://processing.org/download/
 
 Usage is simple.
 
-Load file -- pick a .Kml file (download from google MY MAPS not maps)
-Select output location.
-Select route direction foward / reverse / loop.
-Select emulated speed 5km/h is default, ~12km/h is usally pretty smooth. Things get buggy on the high and low end.
+Load file -- pick a .Kml  (Creat and download from google MY MAPS not maps!)
+Select    -- output location.
+Select    -- route direction foward / reverse / loop.
+Select    -- emulated speed 5km/h is default, ~12km/h is usally pretty smooth. Things get buggy on the high and low end.
 Save.
 Load in Xcode under GPS sim and enjoy. :)
 
