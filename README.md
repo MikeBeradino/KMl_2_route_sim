@@ -1,7 +1,7 @@
 
 
 
-Java / Processing utility to convert Google .KML maps to .GPX routes with speed values. I use it with Xcode to simulate gps movements while debugging. Lately I have been using it to spoof GPS coordinates in PokeMon Go.
+Processing utility to convert Google .KML maps to .GPX routes with speed values. I use it with Xcode to simulate gps movements while debugging. Lately I have been using it to spoof GPS coordinates in PokeMon Go.
 
 There is a packaged .app in the application.macosx. To run you need some Java (8): http://java.com/en/download/
 
